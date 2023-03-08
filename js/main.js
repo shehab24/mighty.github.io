@@ -29,6 +29,13 @@ $(document).ready(function () {
   let popup_close_btn = document.querySelector(".popup_close_btn");
   let popup = document.querySelector(".popup");
 
+  function showPopup(){
+    popup.style.visibility = 'visible';
+    popup.style.opacity = '1';
+  }
+
+  setTimeout(showPopup, 3000);
+
   popup_close_btn?.addEventListener("click", function () {
     popup.style.display = 'none';
 
