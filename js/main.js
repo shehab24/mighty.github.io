@@ -34,7 +34,7 @@ $(document).ready(function () {
     popup.style.opacity = '1';
   }
 
-  setTimeout(showPopup, 4000);
+  setTimeout(showPopup, 3000);
 
   popup_close_btn?.addEventListener("click", function () {
     popup.style.display = 'none';
